@@ -1,0 +1,18 @@
+package com.cadastro.pessoa.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.cadastro.pessoa.dto.response.PessoaDTO;
+
+
+public interface PessoaService {
+
+	PessoaDTO findById(Long id);
+	
+	List<PessoaDTO> findAll();
+	
+	String register(PessoaDTO pessoaDTO);
+	
+}

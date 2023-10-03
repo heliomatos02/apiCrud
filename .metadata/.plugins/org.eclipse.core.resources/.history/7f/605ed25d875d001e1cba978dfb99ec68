@@ -1,0 +1,11 @@
+package com.cadastro.pessoa.dto.response;
+
+import jakarta.persistence.Column;
+
+public class PessoaResponseDTO {
+
+	private Long id;
+	private String nome;
+	private String cpf;
+	private Integer idade;
+}

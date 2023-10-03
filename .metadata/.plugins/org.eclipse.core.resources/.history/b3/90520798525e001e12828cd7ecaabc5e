@@ -1,0 +1,11 @@
+package com.cadastro.pessoa.util;
+
+import com.cadastro.pessoa.dto.request.PessoaRequestDTO;
+import com.cadastro.pessoa.entidade.Pessoa;
+
+public class PessoaMapper {
+
+	public Pessoa toPessoa(PessoaRequestDTO pessoaDTO) {
+		
+	}
+}

@@ -1,0 +1,5 @@
+package com.cadastro.pessoa.controller;
+
+public class PessoaController {
+
+}

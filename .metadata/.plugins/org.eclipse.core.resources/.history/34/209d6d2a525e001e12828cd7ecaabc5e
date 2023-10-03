@@ -1,0 +1,8 @@
+package com.cadastro.pessoa.dto.request;
+
+public class PessoaRequestDTO {
+
+	private String nome;
+	private String cpf;
+	private Integer idade;
+}
